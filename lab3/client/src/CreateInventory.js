@@ -104,7 +104,7 @@ const CreateInventory = () => {
     const print = (user) => {
 
         return (<div>
-            <img src={"http://http://ec2-3-91-150-109.compute-1.amazonaws.com:4000/files/" + user.image} />
+            <img src={"http://ec2-3-91-150-109.compute-1.amazonaws.com:4000/files/" + user.image} />
             <h3>{user.name}</h3>
             <h3>{user.quantity}</h3>
             <button
