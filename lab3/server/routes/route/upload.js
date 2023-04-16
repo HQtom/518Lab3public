@@ -22,7 +22,7 @@ const GridFSBucket = require("mongodb").GridFSBucket;
 
 const url = dbConfig.url;
 
-const baseUrl = "http://ec2-3-91-150-109.compute-1.amazonaws.com:4000/files/";
+const baseUrl = "http://localhost:4000/files/";
 
 const mongoClient = new MongoClient(url);
 
